@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#17120f" />
+    <title>Dead Rails: Last Train</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="hud">
+        <div class="brand">DEAD RAILS <span>LAST TRAIN</span></div>
+        <div class="stats">
+          <div class="stat"><small>SALUTE</small><strong id="health">100</strong></div>
+          <div class="stat"><small>MUNIZIONI</small><strong id="ammo">12 / 48</strong></div>
+          <div class="stat"><small>ONDATA</small><strong id="wave">1</strong></div>
+          <div class="stat"><small>ROTTAMI</small><strong id="scrap">0</strong></div>
+        </div>
+        <div id="objective">SOPRAVVIVI E DIFENDI IL TRENO</div>
+      </div>
+      <div id="crosshair">+</div>
+      <div id="toast"></div>
+      <div id="overlay">
+        <div class="panel">
+          <p class="eyebrow">FRONTIERA • 1899</p>
+          <h1>LAST<br><em>TRAIN</em></h1>
+          <p class="intro">La notte è infestata. Il treno è l'unica via di fuga.<br>Resisti alle orde e raccogli rottami per sopravvivere.</p>
+          <div class="controls">
+            <span><b>W A S D</b> Muovi</span>
+            <span><b>MOUSE</b> Mira</span>
+            <span><b>CLICK</b> Spara</span>
+            <span><b>R</b> Ricarica</span>
+            <span><b>SHIFT</b> Corri</span>
+            <span><b>ESC</b> Pausa</span>
+          </div>
+          <button id="start">ENTRA NELLA FRONTIERA</button>
+          <p class="hint">Gioco originale ispirato ai survival western su rotaia. Non è un prodotto ufficiale Roblox.</p>
+        </div>
+      </div>
+      <div id="damage"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
